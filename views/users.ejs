@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,8 @@
 <body>
   <a href="/">홈</a>
     <h1>회원목록</h1>
-        <% for(let i = 0; i < users.length; i++) {%>
+        <% for(let i = 0; i < users.length; i++) 
+        {%>
     <p>id : <%=users[i].id %></p>
     <p>password : <%=users[i].password %></p>
     <% } %>
