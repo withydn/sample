@@ -8,10 +8,7 @@ const userRouter = require('./routes/users');
 const app = express();
 const PORT = 7000;
 
-// ejs setting
 app.set('view engine', 'ejs');
-
-// router setting
 
 app.use('/', indexRouter);
 app.use('/users', userRouter);
